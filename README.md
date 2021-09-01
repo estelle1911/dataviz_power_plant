@@ -11,6 +11,12 @@ This project couldn’t have existed without the course of Prof. Isaac Pante, th
 
 ## Database
 Each entry represents one power plant for which there are 24 keys, of which I used 4 : capacityMw, latitude, longitude and primaryFuel. capacityMw is the electrical generating capacity in megawatts, while primaryFuel is the energy source used in primary electricity generation or export, and the latitude and longitude.
+
+I decided to use different colors for the bubbles representing the fuel and to use the size of the bubbles to represent the capacity in megawatts. 
+On this image we can see the difference in fuel between Europe, mainly powered by nuclear, represented in orange; and Asia, specially China, mainly powered by hydroelectrical power plants, the dark blue bubbles.
+
+![bubbles screenshot](/screenshots/screenshot_bubbles.png)
+
 The power plant database is almost 800’000 lines long which has sometimes made it difficult to work with. There is a lot of data that I didn’t use in my project but I would have liked to make some more information available with an Eventlistener for a click on one of the bubbles, displaying for ex. the name of the country, the name of the power plant and the fuel it uses. 
 
 **Use**

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+    <!--lien vers le fichier css-->  
+    <link rel="stylesheet" href="style.css">
+    <!--lien vers la librairie js et topojson-->  
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src ="https://d3js.org/topojson.v1.min.js" ></script>
+    <h2>Type of power plants accross the globe</h2>  
+
+    <div class="entete">
+    <p>This visualisation represents almost 30’000 power plants across 164 countries.<br> The open source data was retrieved from a kaggle <a href https://www.kaggle.com/mathurinache/global-power-plant-database>project.</a><br> 
+      The size of the circle represents the electrical generating capacity in megawatts<br> and the color equates the energy source used in primary electricity generation or export.
+      </p>
+    </div>
+</head>
+<body>
+
+<svg id="my_dataviz" width="945" height="525"></svg>
+<div id="map"></div>
+
+<script src ="index.js"></script>
+
+</body>
+</html>

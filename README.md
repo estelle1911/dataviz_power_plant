@@ -7,7 +7,7 @@ This visualisation was done with the help of the javascript D3 library.
 
 This project couldn’t have existed without the course of Prof. Isaac Pante, the help found on so many forums and the many great examples of [Mike Bostock](https://bost.ocks.org/mike/) and [Yan Holtz](https://www.d3-graph-gallery.com/index.html)
 
-![visualisation screenshot](screenshot_data.png) 
+![visualisationscreenshot](/screenshots/screenshot_data.png) 
 
 ## Database
 Each entry represents one power plant for which there are 24 keys, of which I used 4 : capacityMw, latitude, longitude and primaryFuel. capacityMw is the electrical generating capacity in megawatts, while primaryFuel is the energy source used in primary electricity generation or export, and the latitude and longitude.
